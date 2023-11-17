@@ -2,6 +2,8 @@
 pragma solidity >=0.8.0 <0.9.0; 
 //1. Designate License & Solidity Version
 
+// Jayde Magee and Avrie White
+
 contract KayakRental {
 //2. Designate Contract Owner 
     address payable public owner; 
