@@ -38,7 +38,7 @@ contract KayakRental {
 //5. 1/3 Public Functions
 function updateRate(uint newRate) public onlySeller {
     ratePerDay == newRate;
-    emit Log(tx.origin, "Owner updated kayak rental rate.");
+    emit Log(tx.origin, "Seller updated kayak rental rate.");
 }
 
 //5. 2/3 Public Functions
